@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "set DEBUG=mrestaurant:* & nodemon main.js",
-    "start": "npm install & npm run dev"
+    "start": "nodemon main.js"
   },
   "author": "",
   "license": "ISC",
